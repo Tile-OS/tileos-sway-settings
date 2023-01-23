@@ -1,0 +1,244 @@
+tileos-sway-settings (1.49~tileos) unstable; urgency=medium
+
+  * Update window rules
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 09 Sep 2022 14:39:19 +0400
+
+swaybian-default-settings (1.48~swaybian) unstable; urgency=medium
+
+  * Set Waybar font to Noto Sans
+  * Disable hardware cursors on KVM
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 09 Sep 2022 02:06:51 +0400
+
+swaybian-default-settings (1.47~swaybian) unstable; urgency=medium
+
+  * Don't hardcode shell
+  * Change wallpaper name
+  * Disable software rendering for KVM
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 01 Sep 2022 21:48:08 +0400
+
+swaybian-default-settings (1.46~swaybian) unstable; urgency=medium
+
+  * Fix xdg variable
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 22 Aug 2022 19:13:29 +0400
+
+swaybian-default-settings (1.45~swaybian) unstable; urgency=medium
+
+  * Rebuild for Swaybian
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 13 Aug 2022 23:14:51 +0400
+
+ubuntusway-default-settings (1.45~jammy) jammy; urgency=medium
+
+  * Code style updates
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 12 Jul 2022 20:30:13 +0400
+
+ubuntusway-default-settings (1.44~jammy) jammy; urgency=medium
+
+  * Implement empty-workspace script from Manjaro Sway
+  * Fix nwg-wrapper helper script
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 26 Jun 2022 22:48:50 +0400
+
+ubuntusway-default-settings (1.43~jammy) jammy; urgency=medium
+
+  * Drop apparmor workaround for Mako
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 26 Jun 2022 19:28:54 +0400
+
+ubuntusway-default-settings (1.42~jammy) jammy; urgency=medium
+
+  * Adjust libfm settings
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 26 Jun 2022 17:22:55 +0400
+
+ubuntusway-default-settings (1.41~jammy) jammy; urgency=medium
+
+  * Fix waybar run
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 26 Jun 2022 00:44:04 +0400
+
+ubuntusway-default-settings (1.40~jammy) jammy; urgency=medium
+
+  * add new waybar command
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 25 Jun 2022 23:16:59 +0400
+
+ubuntusway-default-settings (1.39~jammy) jammy; urgency=medium
+
+  * nwg-wrapper: fix light theme
+  * set Ubuntu Sway config dir
+  * allow users to override waybar config
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 25 Jun 2022 21:40:16 +0400
+
+ubuntusway-default-settings (1.38~jammy) jammy; urgency=medium
+
+  * fix xdg-ubuntusway path
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 25 Jun 2022 00:11:13 +0400
+
+ubuntusway-default-settings (1.37~jammy) jammy; urgency=medium
+
+  * Add xdg-ubuntusway directory and move some configs to it
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 24 Jun 2022 23:16:40 +0400
+
+ubuntusway-default-settings (1.36~jammy) jammy; urgency=medium
+
+  * waybar: styling fix
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 22 Jun 2022 21:33:09 +0400
+
+ubuntusway-default-settings (1.35~jammy) jammy; urgency=medium
+
+  * modes: replace swaynag with wlogout
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 22 Jun 2022 13:21:00 +0400
+
+ubuntusway-default-settings (1.34~jammy) jammy; urgency=medium
+
+  * Move theme specific stuff to ubuntusway-artwork
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 21 Jun 2022 21:07:42 +0400
+
+ubuntusway-default-settings (1.33~jammy) jammy; urgency=medium
+
+  * waybar: add wlogout module
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 21 Jun 2022 18:09:01 +0400
+
+ubuntusway-default-settings (1.32~jammy) jammy; urgency=medium
+
+  * Fix Foot config
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 20 Jun 2022 23:23:50 +0400
+
+ubuntusway-default-settings (1.30~jammy) jammy; urgency=medium
+
+  * use posix compliant syntax in help.sh
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 19 Jun 2022 14:24:22 +0400
+
+ubuntusway-default-settings (1.30~jammy) jammy; urgency=medium
+
+  * Back to Foot as default terminal emulator
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 18 Jun 2022 21:22:35 +0400
+
+ubuntusway-default-settings (1.29~jammy) jammy; urgency=medium
+
+  * Switch to Kitty
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 17 Jun 2022 23:44:24 +0400
+
+ubuntusway-default-settings (1.27~jammy) jammy; urgency=medium
+
+  * Add workaround to running in QEMU/KVM
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 14:11:25 +0400
+
+ubuntusway-default-settings (1.26~jammy) jammy; urgency=medium
+
+  * Change Foot's font to Hack 10
+  * Add basic mimelist
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 13:05:08 +0400
+
+ubuntusway-default-settings (1.25~jammy) jammy; urgency=medium
+
+  * Change Foot's font to Hack 10
+  * Add basic mimelist
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 13:02:56 +0400
+
+ubuntusway-default-settings (1.24~jammy) jammy; urgency=medium
+
+  * Change Foot's font to Hack 10
+  * Add basic mimelist
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 13:00:20 +0400
+
+ubuntusway-default-settings (1.22~jammy) jammy; urgency=medium
+
+  * Switch to lxpolkit
+  * Switch to engrampa
+  * Handle GTK, Fonts and cursor settings with nwg-look
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 08 Jun 2022 18:57:12 +0400
+
+ubuntusway-default-settings (1.18-1~jammy) jammy; urgency=medium
+
+  * Fix autostarting polkit-gnome
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 25 May 2022 23:41:37 +0400
+
+ubuntusway-default-settings (1.17-1~jammy) jammy; urgency=medium
+
+  * Remove lock logo
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 25 May 2022 11:58:13 +0400
+
+ubuntusway-default-settings (1.16-1~jammy) jammy; urgency=medium
+
+  * Fix screenlock on laptops
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 25 May 2022 02:08:10 +0400
+
+ubuntusway-default-settings (1.10-1~jammy) jammy; urgency=medium
+
+  * Rebuild
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 15 May 2022 00:41:22 +0400
+
+ubuntusway-default-settings (1.9-1~jammy) jammy; urgency=medium
+
+  * Rebuild
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 14 May 2022 22:08:14 +0400
+
+ubuntusway-default-settings (1.7-1~jammy) jammy; urgency=medium
+
+  * Export XDG_CURRENT_DESKTOP=sway, fix output
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 13 May 2022 21:30:34 +0400
+
+ubuntusway-default-settings (1.6-1~jammy) jammy; urgency=medium
+
+  * Fix outputs config
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 13 May 2022 18:48:25 +0400
+
+ubuntusway-default-settings (1.5-1~jammy) jammy; urgency=medium
+
+  * Style fixes
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 12 May 2022 23:57:24 +0400
+
+ubuntusway-default-settings (1.4-1~jammy) jammy; urgency=medium
+
+  * Update wybar style
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 12 May 2022 20:23:08 +0400
+
+ubuntusway-default-settings (1.3-1~jammy) jammy; urgency=medium
+
+  * Add more configs
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 12 May 2022 16:45:24 +0400
+
+ubuntusway-default-settings (1.1-1~jammy) jammy; urgency=medium
+
+  * Split all configs
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 05 May 2022 16:46:10 +0400
+
+ubuntusway-default-settings (1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 11 Apr 2022 15:09:27 +0400

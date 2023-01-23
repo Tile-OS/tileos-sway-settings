@@ -1,0 +1,13 @@
+Source: tileos-sway-settings
+Section: x11
+Priority: optional
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Homepage: https://github.com/Tile-OS/tileos-sway-settings
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+
+Package: tileos-sway-settings
+Architecture: any
+Depends: ${misc:Depends},
+Description: Default settings for Sway in TileOS
